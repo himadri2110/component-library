@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --primary-color: #8553fa;
+  --primary-hover: #7942fa;
+  --primary-disabled: #c4b5fb;
+
+  --bg-color: #e7e7e7;
+  --bg-secondary: #c0c0c0;
+
+  --text-color: #1e1e1e;
+  --text-secondary: #2e2e2e;
+
+  --border-radius: 0.25rem;
+}
