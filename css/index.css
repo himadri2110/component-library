@@ -1,0 +1,154 @@
+/* CSS for landing page */
+
+@import url("./components.css"); /* For CSS variables */
+@import url("./navbar.css");
+
+/* Reset CSS */
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Body */
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero section */
+
+.hero {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.hero .hero-title {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.hero .hero-subtitle {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: var(--text-secondary);
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Installation */
+
+.installation {
+  margin: 3rem auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.installation .text {
+  padding: 0 1rem;
+  color: var(--text-color);
+}
+
+.installation p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.installation .content {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.inst-iframe iframe {
+  border-radius: var(--border-radius);
+}
+
+code {
+  background-color: var(--bg-secondary);
+  padding: 0 0.5rem;
+  font-family: "Source Code Pro", monospace;
+  border-radius: var(--border-radius);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: var(--bg-secondary);
+}
+
+footer .author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+footer .social-icons {
+  margin-left: auto;
+}
+
+.social-icons i {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .hero .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero .hero-subtitle,
+  .installation .content {
+    font-size: 1rem;
+  }
+
+  .installation {
+    margin: 1rem auto;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .installation .text {
+    padding: 1rem;
+  }
+}
