@@ -1,7 +1,6 @@
-/* CSS for landing page */
-
-@import url("./components.css"); /* For CSS variables */
+@import url("./components.css");
 @import url("./navbar.css");
+@import url("./docsite.css");
 
 /* Reset CSS */
 
@@ -100,7 +99,8 @@ body {
 
 code {
   background-color: var(--bg-secondary);
-  padding: 0 0.5rem;
+  padding: 0 0.25rem;
+  font-size: inherit;
   font-family: "Source Code Pro", monospace;
   border-radius: var(--border-radius);
 }

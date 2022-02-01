@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
+/* CSS files of components */
+@import url("/components/avatar/avatar.css");
+@import url("/components/badge/badge.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +17,16 @@
   --primary-hover: #7942fa;
   --primary-disabled: #c4b5fb;
 
-  --bg-color: #e7e7e7;
+  --white: #fff;
+  --bg-color: #ebebeb;
   --bg-secondary: #c0c0c0;
 
   --text-color: #1e1e1e;
   --text-secondary: #2e2e2e;
 
   --border-radius: 0.25rem;
+
+  --status-online: #00af00;
+  --status-offline: #808080;
+  --status-dnd: #ff0000;
 }
