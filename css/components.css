@@ -47,5 +47,5 @@ iframe {
   height: 300px;
   border: 0;
   transform: scale(1);
-  overflow: hidden;
+  overflow: visible;
 }
