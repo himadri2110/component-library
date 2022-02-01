@@ -58,3 +58,14 @@
   color: var(--text-secondary);
   border: 2px solid var(--text-secondary);
 }
+
+/* Close alert */
+
+.alert-close {
+  display: flex;
+  align-items: center;
+}
+
+.alert-close i {
+  margin-left: auto;
+}
