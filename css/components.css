@@ -23,6 +23,7 @@
   --bg-color: #ebebeb;
   --bg-secondary: #c0c0c0;
 
+  --black: #000;
   --text-color: #1e1e1e;
   --text-secondary: #2e2e2e;
 
@@ -32,12 +33,15 @@
   --status-offline: #808080;
   --status-dnd: #ff0000;
 
-  --success-color: #5dff57;
-  --success-hover: #41ec3b;
-  --warning-color: #ffd900;
-  --warning-hover: #ffee00;
-  --danger-color: #ff4646;
-  --danger-hover: #ff2626;
+  --success-bg: #a3ff9b;
+  --success-color: #2bd825;
+  --success-hover: #17cf11;
+  --warning-bg: #fced6e;
+  --warning-color: #fdcf00;
+  --warning-hover: #f0d800;
+  --danger-bg: #ff9d9d;
+  --danger-color: #ff2c2c;
+  --danger-hover: #ee1e1e;
 }
 
 /* iframe */
