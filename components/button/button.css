@@ -1,0 +1,136 @@
+.btn {
+  font-size: 1.2rem;
+  color: var(--white);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--bg-color);
+  color: var(--black);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-secondary);
+}
+
+.btn-success {
+  background-color: var(--success-color);
+}
+
+.btn-success:hover {
+  background-color: var(--success-hover);
+}
+
+.btn-warning {
+  background-color: var(--warning-color);
+}
+
+.btn-warning:hover {
+  background-color: var(--warning-hover);
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-hover);
+}
+
+.btn-dark {
+  background-color: var(--text-secondary);
+}
+
+.btn-dark:hover {
+  background-color: var(--text-color);
+}
+
+/* Outline */
+
+.outline-primary {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.outline-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.outline-success {
+  border: 2px solid var(--success-color);
+  color: var(--success-color);
+}
+
+.outline-success:hover {
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+.outline-warning {
+  border: 2px solid var(--warning-color);
+  color: var(--warning-color);
+}
+
+.outline-warning:hover {
+  background-color: var(--warning-color);
+  color: var(--white);
+}
+
+.outline-danger {
+  border: 2px solid var(--danger-color);
+  color: var(--danger-color);
+}
+
+.outline-danger:hover {
+  background-color: var(--danger-color);
+  color: var(--white);
+}
+
+.outline-dark {
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.outline-dark:hover {
+  background-color: var(--text-color);
+  color: var(--white);
+}
+
+/* Link button */
+
+.link-primary {
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.link-primary:hover {
+  background-color: var(--primary-disabled);
+}
+
+/* Icon button */
+
+.btn-icon i {
+  margin: 0 0.25rem;
+}
+
+/* Floating button */
+
+.btn-floating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}

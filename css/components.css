@@ -3,7 +3,9 @@
 
 /* CSS files of components */
 @import url("/components/avatar/avatar.css");
+@import url("/components/alert/alert.css");
 @import url("/components/badge/badge.css");
+@import url("/components/button/button.css");
 
 * {
   margin: 0;
@@ -29,6 +31,13 @@
   --status-online: #00af00;
   --status-offline: #808080;
   --status-dnd: #ff0000;
+
+  --success-color: #5dff57;
+  --success-hover: #41ec3b;
+  --warning-color: #ffd900;
+  --warning-hover: #ffee00;
+  --danger-color: #ff4646;
+  --danger-hover: #ff2626;
 }
 
 /* iframe */
