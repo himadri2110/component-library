@@ -1,0 +1,103 @@
+/* Wrapper */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  color: var(--text-color);
+}
+
+/* Aside */
+
+aside {
+  padding: 1rem;
+}
+
+aside a {
+  display: inline-block;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+aside a.active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+aside a:hover {
+  background-color: var(--primary-disabled);
+}
+
+aside h3,
+aside a {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* Main */
+
+main {
+  padding: 1rem;
+}
+
+main .container {
+  margin: 0 1rem;
+}
+
+main h1 {
+  font-size: 2rem;
+}
+
+main hr {
+  margin: 1rem 0;
+}
+
+.comp-intro {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+.subtitle-detail {
+  color: var(--text-secondary);
+}
+
+.comp-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--bg-secondary);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.comp-demo > * {
+  margin: 0 1rem;
+}
+
+.comp-code iframe {
+  margin: 2rem 0;
+  border-radius: var(--border-radius);
+}
+
+/* Main footer */
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.previous-comp i {
+  margin-right: 1rem;
+}
+
+.next-comp i {
+  margin-left: 1rem;
+}

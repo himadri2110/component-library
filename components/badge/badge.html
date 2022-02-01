@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/f9281fa301.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <title>Badge | captureUI</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <a href="/index.html" class="nav-logo">captureUI</a>
+
+      <div class="nav-links">
+        <a
+          href="https://github.com/himadri2110/component-library"
+          target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section class="wrapper">
+      <aside>
+        <h3>Components</h3>
+        <ul>
+          <li>
+            <a href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a href="/components/alert/alert.html">Alert</a>
+          </li>
+          <li>
+            <a href="/components/badge/badge.html" class="active">Badge</a>
+          </li>
+          <li>
+            <a href="/components/button/button.html">Button</a>
+          </li>
+          <li>
+            <a href="/components/card/card.html">Card</a>
+          </li>
+          <li>
+            <a href="/components/image/image.html">Image</a>
+          </li>
+          <li>
+            <a href="/components/input/input.html">Input</a>
+          </li>
+          <li>
+            <a href="/components/list/list.html">List</a>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="container">
+          <h1>Badge</h1>
+
+          <div class="comp-intro">
+            Badges are used to denote a small piece of information.
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <div class="subtitle">Icon Badge</div>
+
+            <div class="subtitle-detail">
+              Icon badges can be used to denote the numeric value of an entity.
+              For example, they can be used to display the number of missed
+              calls or the number of notifications. The badges can appear of the
+              top-right corner of the icon.
+            </div>
+
+            <div class="comp-demo">
+              <div class="icon-badge">
+                <span class="icon">
+                  <i class="fa fa-phone"></i>
+                  <span class="badge">2</span>
+                </span>
+              </div>
+
+              <div class="icon-badge">
+                <span class="icon">
+                  <i class="fa fa-bell"></i>
+                  <span class="badge">9+</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=javascript&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-phone%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E2%253C%252Fspan%253E%250A%2509%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E9%252B%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <div class="subtitle">Status Badge</div>
+
+            <div class="subtitle-detail">
+              Status badges can be used to denote the status of a user. For
+              example, it can show if the user is online, offline or in DND
+              mode.
+            </div>
+
+            <div class="comp-demo">
+              <div class="avatar-badge avatar-online">
+                <span class="avatar">
+                  <img src="/assets/avatar.jpg" alt="Status Badge" />
+                  <span class="badge"></span>
+                </span>
+              </div>
+
+              <div class="avatar-badge avatar-offline">
+                <span class="avatar">
+                  <img src="/assets/avatar.jpg" alt="Status Badge" />
+                  <span class="badge"></span>
+                </span>
+              </div>
+
+              <div class="avatar-badge avatar-dnd">
+                <span class="avatar">
+                  <img src="/assets/avatar.jpg" alt="Status Badge" />
+                  <span class="badge"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=javascript&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Online%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar-badge%2520avatar-online%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522Status%2520Badge%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Offline%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar-badge%2520avatar-offline%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522Status%2520Badge%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520DND%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar-badge%2520avatar-dnd%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522Status%2520Badge%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <div class="subtitle">Button Badge</div>
+
+            <div class="subtitle-detail">
+              Button badges can be used to represent a badge on a button as
+              shown below.
+            </div>
+
+            <div class="comp-demo">
+              <div class="btn-badge">
+                <button class="btn">
+                  Updates
+                  <span class="badge">4</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=javascript&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-badge%2522%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2509%2509Updates%250A%2509%2509%253Cspan%2520class%253D%2522badge%2522%253E4%253C%252Fspan%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="main-footer">
+          <a href="/components/alert/alert.html" class="previous-comp">
+            <i class="fa fa-chevron-left"></i>Alert
+          </a>
+          <a href="/components/button/button.html" class="next-comp"
+            >Button<i class="fa fa-chevron-right"></i
+          ></a>
+        </div>
+      </main>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="author">Himadri Shah</div>
+      <div class="social-icons">
+        <a href="https://github.com/himadri2110" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://twitter.com/himadri2110" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://linkedin.com/in/himadri2110" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.icon {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.badge {
+  position: absolute;
+  top: -7px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+/* Status badge */
+
+.avatar-badge .avatar {
+  position: relative;
+}
+
+.avatar-badge img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.avatar-badge .badge {
+  height: 15px;
+  width: 15px;
+  border: 2px solid white;
+  top: 5px;
+  right: 2px;
+}
+
+.avatar-online .badge {
+  background-color: var(--status-online);
+}
+
+.avatar-offline .badge {
+  background-color: var(--status-offline);
+}
+
+.avatar-dnd .badge {
+  background-color: var(--status-dnd);
+}
+
+/* Button Badge */
+
+.btn-badge .btn {
+  font-size: 1rem;
+  position: relative;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+}
+
+.btn-badge .badge {
+  height: 25px;
+  width: 25px;
+  font-size: 1rem;
+  background-color: var(--text-color);
+  color: var(--white);
+}
