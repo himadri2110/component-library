@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/f9281fa301.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <title>Card | captureUI</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <a href="/index.html" class="nav-logo">captureUI</a>
+
+      <div class="nav-links">
+        <a
+          href="https://github.com/himadri2110/component-library"
+          target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section class="wrapper">
+      <aside>
+        <h3>Components</h3>
+
+        <ul>
+          <li>
+            <a href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a href="/components/alert/alert.html">Alert</a>
+          </li>
+          <li>
+            <a href="/components/badge/badge.html">Badge</a>
+          </li>
+          <li>
+            <a href="/components/button/button.html">Button</a>
+          </li>
+          <li>
+            <a href="/components/card/card.html" class="active">Card</a>
+          </li>
+          <li>
+            <a href="/components/image/image.html">Image</a>
+          </li>
+          <li>
+            <a href="/components/input/input.html">Input</a>
+          </li>
+          <li>
+            <a href="/components/list/list.html">List</a>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="container">
+          <h1>Card</h1>
+
+          <div class="comp-intro">
+            A card is an element that is used to impart detailed knowledge about
+            a product or category. They can mostly be found on e-commerce
+            websites to display a product.
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Basic Card -->
+
+            <div class="subtitle">Basic Card</div>
+
+            <div class="subtitle-detail">
+              This is a basic card which showcases the product image, title,
+              discount price and action buttons.
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper basic-card">
+                <div>
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=805&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520basic-card%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2509%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2509%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Card with badges-->
+
+            <div class="subtitle">Card with Badge</div>
+
+            <div class="subtitle-detail">
+              This is a basic card which which contains a badge. Badges are used
+              to highlight specific information to catch the user's attention.
+              They can appear to top-left or top-right corner of the card.
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper card-w-badge">
+                <div>
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520card-w-badge%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Card with dismiss-->
+
+            <div class="subtitle">Card with Dismiss Icon</div>
+
+            <div class="subtitle-detail">
+              This is a basic card which which contains a dismiss icon. The icon
+              can be found on the top-right corner and can be used to close the
+              card.
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper card-w-dismiss">
+                <div>
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520card-w-dismiss%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%2509%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Card with text overlay -->
+
+            <div class="subtitle">Card with Text overlay</div>
+
+            <div class="subtitle-detail">
+              This is a basic card with text overlay. Text Overlay is used to
+              display text on top of a card/element.
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper basic-card card-w-overlay">
+                <div class="overlay-bg">
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="overlay-text">Out of Stock</div>
+
+                <div class="card-content overlay-bg">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action overlay-bg">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520basic-card%2520card-w-overlay%2522%253E%250A%2509%253Cdiv%2520class%253D%2522overlay-bg%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2520overlay-bg%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2520overlay-bg%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Text only Card -->
+
+            <div class="subtitle">Text only Card</div>
+
+            <div class="subtitle-detail">
+              This is a basic card which has only text.
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper basic-card card-text-only">
+                <div>
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520basic-card%2520card-text-only%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- horizontal Card -->
+
+            <div class="subtitle">Horizontal Card</div>
+
+            <div class="subtitle-detail">A basic horizontal card</div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper basic-card card-horizontal">
+                <div class="row">
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520basic-card%2520card-horizontal%2522%253E%250A%2509%253Cdiv%2520class%253D%2522row%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <!-- Card with shadow-->
+
+            <div class="subtitle">Card with Shadow</div>
+
+            <div class="subtitle-detail">
+              A basic horizontal card with box shadow
+            </div>
+
+            <div class="comp-demo">
+              <div class="card-wrapper basic-card card-w-shadow">
+                <div>
+                  <img src="/assets/heels.jpg" class="card-img" alt="Heels" />
+                  <div class="card-dismiss"><i class="fa fa-times"></i></div>
+                  <div class="card-badge"><div class="span">Trending</div></div>
+
+                  <div class="card-heading">
+                    Women Stylish Pencil Heel Sandal with Trendy Colour
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="product-price">
+                    <div class="price">&#8377; 699</div>
+                    <div class="previous-price">&#8377; 1499</div>
+                  </div>
+                  <div class="discount">53% off</div>
+                </div>
+
+                <div class="card-action">
+                  <button class="btn btn-primary">Add to cart</button>
+                  <button class="btn outline-primary">Save to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=810.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-wrapper%2520basic-card%2520card-w-shadow%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fheels.jpg%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522Heels%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cdiv%2520class%253D%2522span%2522%253ETrending%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2509%2509Women%2520Stylish%2520Pencil%2520Heel%2520Sandal%2520with%2520Trendy%2520Colour%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522price%2522%253E%2526%25238377%253B%2520699%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522previous-price%2522%253E%2526%25238377%253B%25201499%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522discount%2522%253E53%2525%2520off%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="main-footer">
+          <a href="/components/button/button.html" class="previous-comp">
+            <i class="fa fa-chevron-left"></i>Button
+          </a>
+          <a href="/components/image/image.html" class="next-comp"
+            >Image<i class="fa fa-chevron-right"></i
+          ></a>
+        </div>
+      </main>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="author">Himadri Shah</div>
+      <div class="social-icons">
+        <a href="https://github.com/himadri2110" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://twitter.com/himadri2110" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://linkedin.com/in/himadri2110" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

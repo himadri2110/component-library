@@ -1,0 +1,149 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 1rem;
+  height: max-content;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-color);
+}
+
+.basic-card .card-dismiss,
+.basic-card .card-badge {
+  display: none;
+}
+
+.card-img {
+  border-radius: var(--border-radius);
+  width: 100%;
+  height: auto;
+}
+
+.card-heading {
+  font-size: 1.1rem;
+}
+
+.card-content,
+.card-heading {
+  padding: 0.75rem 0.75rem 0;
+}
+
+.product-price {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-content .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-content .previous-price {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: var(--text-secondary);
+  text-decoration: line-through;
+}
+
+.card-content .discount {
+  font-weight: bold;
+  color: var(--success-color);
+}
+
+.card-action {
+  padding: 0.75rem;
+}
+
+.card-action button {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Card with badge */
+
+.card-w-badge .card-dismiss {
+  display: none;
+}
+
+.card-w-badge > div {
+  position: relative;
+}
+
+.card-w-badge .card-badge {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  padding: 0.5rem;
+  background-color: var(--danger-color);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  color: var(--white);
+}
+
+/* Card with dismiss */
+
+.card-w-dismiss .card-badge {
+  display: none;
+}
+
+.card-w-dismiss > div {
+  position: relative;
+}
+
+.card-w-dismiss .card-dismiss {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+/* Card with text overlay */
+
+.card-w-overlay {
+  position: relative;
+}
+
+.card-w-overlay .overlay-bg {
+  opacity: 0.4;
+}
+
+.card-w-overlay .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  color: var(--white);
+  background-color: var(--text-color);
+}
+
+/* Text only card */
+
+.card-text-only img {
+  display: none;
+}
+
+/* Horizontal card */
+
+.card-horizontal .row {
+  display: flex;
+}
+
+.card-horizontal img {
+  width: 40%;
+}
+
+.card-horizontal .card-content {
+  display: none;
+}
+
+/* Card with shadow */
+
+.card-w-shadow {
+  box-shadow: 1px 1px 15px 2px var(--bg-color);
+}
