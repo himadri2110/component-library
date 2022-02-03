@@ -1,10 +1,6 @@
 /* Primary Input */
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-
+.form-group,
 .input-group {
   display: flex;
   flex-direction: column;
