@@ -1,0 +1,23 @@
+/* Responsive Image */
+
+.resp-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+/* Round Image */
+
+.round-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* Square Image */
+
+.square-img {
+  height: 200px;
+  width: 200px;
+  border-radius: var(--border-radius);
+}
