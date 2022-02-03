@@ -1,0 +1,58 @@
+/* Primary Input */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  outline: none;
+}
+
+.input-label {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.input-primary input {
+  border: 2px solid var(--primary-color);
+}
+
+/* Success */
+
+.input-success input {
+  border: 2px solid var(--success-color);
+}
+
+.input-success-msg {
+  color: var(--success-color);
+}
+
+/* Warning */
+
+.input-warning input {
+  border: 2px solid var(--warning-color);
+}
+
+.input-warning-msg {
+  color: var(--warning-color);
+}
+
+/* Error */
+
+.input-error input {
+  border: 2px solid var(--danger-color);
+}
+
+.input-error-msg {
+  color: var(--danger-color);
+}
