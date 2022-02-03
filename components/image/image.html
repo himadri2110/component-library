@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/f9281fa301.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <title>Image | captureUI</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <a href="/index.html" class="nav-logo">captureUI</a>
+
+      <div class="nav-links">
+        <a
+          href="https://github.com/himadri2110/component-library"
+          target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section class="wrapper">
+      <aside>
+        <h3>Components</h3>
+
+        <ul>
+          <li>
+            <a href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a href="/components/alert/alert.html">Alert</a>
+          </li>
+          <li>
+            <a href="/components/badge/badge.html">Badge</a>
+          </li>
+          <li>
+            <a href="/components/button/button.html">Button</a>
+          </li>
+          <li>
+            <a href="/components/card/card.html">Card</a>
+          </li>
+          <li>
+            <a href="/components/image/image.html" class="active">Image</a>
+          </li>
+          <li>
+            <a href="/components/input/input.html">Input</a>
+          </li>
+          <li>
+            <a href="/components/list/list.html">List</a>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="container">
+          <h1>Image</h1>
+
+          <div class="comp-intro">
+            An image can be reponsive, which fits in all screen sizes. Images
+            can also be round and square.
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <div class="subtitle">Responsive Image</div>
+
+            <div class="subtitle-detail">
+              A responsive image will adapt to the width of it's parent
+              container. Resize the brower window to see the image behave
+              responsive. You can set custom width of the
+              <code>resp-img</code> class, and the <code>img</code> will be
+              responsive wrt to it.
+            </div>
+
+            <div class="comp-demo">
+              <img class="resp-img" src="/assets/landscape.jpg" alt="Image" />
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=782.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522resp-img%2522%2520src%253D%2522%252Fassets%252Flandscape.jpg%2522%2520alt%253D%2522Image%2522%2520%252F%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="secondary-container">
+            <div class="subtitle">Round Image</div>
+
+            <div class="subtitle-detail">
+              A round image is circular in shape, and has the default size of
+              200 X 200px.
+            </div>
+
+            <div class="comp-demo">
+              <img class="round-img" src="/assets/landscape.jpg" alt="Image" />
+            </div>
+
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=782.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522%252Fassets%252Flandscape.jpg%2522%2520alt%253D%2522Image%2522%2520%252F%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="secondary-container">
+          <div class="subtitle">Square Image</div>
+
+          <div class="subtitle-detail">
+            A square image has equal <code>width</code> and
+            <code>height</code> of 200px.
+          </div>
+
+          <div class="comp-demo">
+            <img class="square-img" src="/assets/landscape.jpg" alt="Image" />
+          </div>
+
+          <div class="comp-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=782.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522square-img%2522%2520src%253D%2522%252Fassets%252Flandscape.jpg%2522%2520alt%253D%2522Image%2522%2520%252F%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="main-footer">
+          <a href="/components/card/card.html" class="previous-comp">
+            <i class="fa fa-chevron-left"></i>Card
+          </a>
+          <a href="/components/input/input.html" class="next-comp"
+            >Input<i class="fa fa-chevron-right"></i
+          ></a>
+        </div>
+      </main>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="author">Himadri Shah</div>
+      <div class="social-icons">
+        <a href="https://github.com/himadri2110" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://twitter.com/himadri2110" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://linkedin.com/in/himadri2110" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
