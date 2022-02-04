@@ -1,0 +1,39 @@
+.nav-bar > * {
+  font-size: 1.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  border-radius: var(--border-radius);
+}
+
+.nav-bar .nav-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-search {
+  margin: 0 auto;
+}
+
+.nav-search input {
+  font-size: 1rem;
+}
+
+.nav-action {
+  margin-left: auto;
+}
+
+.nav-action a {
+  margin-right: 1rem;
+}
+
+.nav-action .badge {
+  background-color: var(--status-dnd);
+}

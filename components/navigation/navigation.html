@@ -11,7 +11,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/index.css" />
 
-    <title>Toast | captureUI</title>
+    <title>Navigation | captureUI</title>
   </head>
   <body>
     <!-- Nav Bar -->
@@ -58,13 +58,15 @@
             <a href="/components/list/list.html">List</a>
           </li>
           <li>
-            <a href="/components/navigation/navigation.html">Navigation</a>
+            <a href="/components/navigation/navigation.html" class="active"
+              >Navigation</a
+            >
           </li>
           <li>
             <a href="/components/rating/rating.html">Rating</a>
           </li>
           <li>
-            <a href="/components/toast/toast.html" class="active">Toast</a>
+            <a href="/components/toast/toast.html">Toast</a>
           </li>
           <li>
             <a href="/components/typography/typography.html">Typography</a>
@@ -74,39 +76,50 @@
 
       <main>
         <div class="container">
-          <h1>Toast</h1>
+          <h1>Navigation</h1>
 
           <div class="comp-intro">
-            A toast is used to display to tooltips or short messages. They
-            usually disappear after a few seconds.
+            A navbar is used to display brand name, brand logo, search bar, nav
+            links, icons, etc.
           </div>
 
           <hr />
 
           <div class="secondary-container">
-            <div class="subtitle">Basic Toast</div>
+            <div class="subtitle">Desktop Navigation</div>
 
             <div class="subtitle-detail">
-              A basic toast contains text and a button.
+              A desktop navigation menu contains brand name, search bar, login
+              button and icons.
             </div>
 
             <div class="comp-demo">
-              <div class="toast">
-                <div class="toast-text">
-                  Can't send photo. Retry in 5 seconds.
+              <nav class="nav-bar">
+                <a href="" class="nav-brand">MyWebsite</a>
+
+                <div class="nav-search input input-primary">
+                  <input type="text" placeholder="Search" />
                 </div>
 
-                <div class="toast-action">
-                  <button class="btn btn-floating">
-                    <i class="fa fa-times"></i>
-                  </button>
+                <div class="nav-action">
+                  <a href="" class="btn btn-primary">Login</a>
+
+                  <a class="icon">
+                    <i class="fa fa-heart"></i>
+                    <span class="badge">0</span>
+                  </a>
+
+                  <a class="icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="badge">0</span>
+                  </a>
                 </div>
-              </div>
+              </nav>
             </div>
 
             <div class="comp-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=816&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2509%253Cdiv%2520class%253D%2522toast-text%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522toast-action%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28196%2C181%2C251%2C1%29&t=shades-of-purple&wt=bw&l=htmlmixed&width=978.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2509%253Ca%2520href%253D%2522%2522%2520class%253D%2522nav-brand%2522%253EMyWebsite%253C%252Fa%253E%250A%250A%2509%253Cdiv%2520class%253D%2522nav-search%2520input%2520input-primary%2522%253E%250A%2509%2509%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522nav-action%2522%253E%250A%2509%2509%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fa%253E%250A%250A%2509%2509%253Ca%2520class%253D%2522icon%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge%2522%253E0%253C%252Fspan%253E%250A%2509%2509%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2509%253Ca%2520class%253D%2522icon%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge%2522%253E0%253C%252Fspan%253E%250A%2509%2509%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
                 sandbox="allow-scripts allow-same-origin"
               >
               </iframe>
@@ -117,11 +130,11 @@
         <hr />
 
         <div class="main-footer">
-          <a href="/components/rating/rating.html" class="previous-comp">
-            <i class="fa fa-chevron-left"></i>Rating
+          <a href="/components/list/list.html" class="previous-comp">
+            <i class="fa fa-chevron-left"></i>List
           </a>
-          <a href="/components/typography/typography.html" class="next-comp"
-            >Typography<i class="fa fa-chevron-right"></i
+          <a href="/components/rating/rating.html" class="next-comp"
+            >Rating<i class="fa fa-chevron-right"></i
           ></a>
         </div>
       </main>
