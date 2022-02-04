@@ -1,0 +1,13 @@
+.toast {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+}
+
+.toast,
+.toast-action button {
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+}
