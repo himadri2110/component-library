@@ -1,0 +1,38 @@
+/* Spaced list */
+
+.spaced-list {
+  padding: 0.5rem;
+}
+
+.spaced-list .list-head,
+.stacked-list .list-head {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.spaced-list li {
+  list-style-type: disc;
+  padding-top: 0.5rem;
+}
+
+/* Stacked List */
+
+.stacked-list {
+  /* max-width: 400px; */
+  border: 2px solid var(--text-color);
+  border-radius: var(--border-radius);
+}
+
+.stacked-list > * {
+  padding: 1rem;
+}
+
+.stacked-list .list-head {
+  background-color: var(--text-color);
+  color: var(--white);
+}
+
+.stacked-list li:hover {
+  background-color: var(--bg-color);
+  cursor: pointer;
+}
