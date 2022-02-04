@@ -1,38 +1,33 @@
 /* Headings */
 
+.heading {
+  font-weight: bold;
+  width: 100%;
+}
+
 .heading-1 {
   font-size: var(--heading-1);
-  font-weight: bold;
   line-height: var(--line-ht-1);
-  width: 100%;
 }
 
 .heading-2 {
   font-size: var(--heading-2);
-  font-weight: bold;
   line-height: var(--line-ht-1);
-  width: 100%;
 }
 
 .heading-3 {
   font-size: var(--heading-3);
-  font-weight: bold;
   line-height: var(--line-ht-1);
-  width: 100%;
 }
 
 .heading-4 {
   font-size: var(--heading-4);
-  font-weight: bold;
   line-height: var(--line-ht-1);
-  width: 100%;
 }
 
 .heading-5 {
   font-size: var(--heading-5);
-  font-weight: bold;
   line-height: var(--line-ht-1);
-  width: 100%;
 }
 
 /* Small text */
