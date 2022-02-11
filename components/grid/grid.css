@@ -15,17 +15,17 @@
 /* 2 column grid */
 
 .grid-two-col {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* 3 column grid */
 
 .grid-three-col {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* 4 column grid */
 
 .grid-four-col {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
