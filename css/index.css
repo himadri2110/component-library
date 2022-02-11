@@ -2,31 +2,6 @@
 @import url("./navbar.css");
 @import url("./docsite.css");
 
-/* Reset CSS */
-
-html {
-  scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-}
-
-i {
-  cursor: pointer;
-}
-
-li {
-  list-style-type: none;
-}
-
 /* Body */
 
 body {
