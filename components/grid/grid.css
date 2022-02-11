@@ -1,0 +1,31 @@
+/* Grid */
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+.grid .grid-item {
+  padding: 0.5rem;
+  background-color: var(--bg-secondary);
+}
+
+/* 2 column grid */
+
+.grid-two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* 3 column grid */
+
+.grid-three-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* 4 column grid */
+
+.grid-four-col {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
