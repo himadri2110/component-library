@@ -1,0 +1,22 @@
+.modal {
+  max-width: 350px;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: var(--primary-disabled);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--primary-color);
+}
+
+.modal-text {
+  margin: 0.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-actions button {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+}
