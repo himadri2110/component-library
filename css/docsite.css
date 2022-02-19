@@ -110,5 +110,16 @@ main hr {
 
   aside {
     display: none;
+    padding-top: 0;
+  }
+
+  .hide-sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--bg-color);
+  }
+
+  .hide-main {
+    display: none;
   }
 }
