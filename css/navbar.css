@@ -16,7 +16,18 @@ nav .nav-links {
   margin-left: auto;
 }
 
+.nav-links .fa-bars {
+  display: none;
+}
+
 .nav-links i {
   font-size: 1.5rem;
+  margin-left: 1rem;
   color: var(--text-secondary);
+}
+
+@media screen and (max-width: 700px) {
+  .nav-links .fa-bars {
+    display: inline-block;
+  }
 }

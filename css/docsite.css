@@ -110,5 +110,21 @@ main hr {
 
   aside {
     display: none;
+    padding-top: 0;
+  }
+
+  .hide-sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--bg-color);
+  }
+
+  .rotate-hamburger {
+    transform: rotate(90deg);
+    transition: all 1s ease;
+  }
+
+  .hide-main {
+    display: none;
   }
 }
