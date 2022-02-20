@@ -119,6 +119,11 @@ main hr {
     background-color: var(--bg-color);
   }
 
+  .rotate-hamburger {
+    transform: rotate(90deg);
+    transition: all 1s ease;
+  }
+
   .hide-main {
     display: none;
   }
