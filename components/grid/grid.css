@@ -29,3 +29,13 @@
 .grid-four-col {
   grid-template-columns: repeat(4, 1fr);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .grid-two-col,
+  .grid-three-col,
+  .grid-four-col {
+    grid-template-columns: 1fr;
+  }
+}
