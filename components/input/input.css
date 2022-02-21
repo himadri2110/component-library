@@ -61,14 +61,3 @@
   accent-color: var(--primary-color);
   padding: 0.25rem 0;
 }
-
-/* Slider */
-
-.filter-slider {
-  flex-direction: row;
-  align-items: center;
-}
-
-.filter-slider > * {
-  margin: 0 0.25rem;
-}
