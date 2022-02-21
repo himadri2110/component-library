@@ -30,6 +30,7 @@ Capture UI contains the following components:
 - [Modal](https://capture-ui.netlify.app/components/modal/modal.html)
 - [Navigation](https://capture-ui.netlify.app/components/navigation/navigation.html)
 - [Rating](https://capture-ui.netlify.app/components/rating/rating.html)
+- [Slider](https://capture-ui.netlify.app/components/slider/slider.html)
 - [Toast](https://capture-ui.netlify.app/components/toast/toast.html)
 - [Typography](https://capture-ui.netlify.app/components/typography/typography.html)
 
